@@ -1,5 +1,14 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
 body{
     background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     /* font-family: "Montserrat", serif;
     font-family: "Fraunces", serif; */
 }
@@ -7,16 +16,16 @@ body{
 .white-card{
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
-    margin: auto;
+    /* margin: auto; */
     width: 650px;
     height: 500px;
     overflow: hidden;
 
-    position: absolute;
+    /* position: absolute;
     top: 0; 
     bottom: 0;
     left: 0;
-    right: 0;
+    right: 0; */
     display: flex;
 }
 
@@ -119,3 +128,8 @@ body{
         height: 100%;
     }
   }
+
+.attribution { 
+    text-align: center; 
+    margin-top: 10px;
+}
